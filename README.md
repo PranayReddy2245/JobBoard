@@ -11,20 +11,6 @@ Job Details Modal: Click "View Details" on any job card to see a comprehensive o
 
 Job Posting Form: A dedicated section to post new job opportunities with fields for:
 
-Job Title
-
-Company
-
-Location
-
-Salary Range
-
-Job Type (Full-time, Part-time, Contract, Internship)
-
-Remote Option (Checkbox)
-
-Detailed Description
-
 Dashboard Overview: A simple dashboard section providing quick statistics like total jobs available.
 
 Navigation: Smooth scrolling to "Jobs" and "Post Job" sections from the navbar.
@@ -62,18 +48,18 @@ cd JobBoard
 
 Install dependencies:
 This will install all the necessary React, Tailwind CSS, and other project dependencies.
-
+```bash
 npm install
 # or if you use yarn
 # yarn install
-
+```
 Run the development server:
 This command starts the Vite development server, and your application will be accessible in your browser.
-
+```bash
 npm run dev
 # or if you use yarn
 # yarn dev
-
+```
 Typically, the app will be available at http://localhost:5173/ (or a similar port).
 
 🚀 Usage
@@ -107,27 +93,5 @@ JobBoard/
 ├── postcss.config.js   # PostCSS configuration for Tailwind CSS
 └── tailwind.config.js  # Tailwind CSS configuration
 ```
-💡 Future Enhancements
-Full Search Functionality: Implement filtering and searching based on keywords, location, job type, and remote status.
 
-Backend Integration: Connect the application to a real backend (e.g., Node.js, Firebase, Django) to store and retrieve job data persistently.
 
-User Authentication: Add user login/registration for employers to manage their posted jobs.
-
-Pagination/Infinite Scrolling: For large numbers of job listings.
-
-Job Application Form: Allow users to apply directly through the platform.
-
-Job Editing/Deletion: Functionality for employers to modify or remove their job postings.
-
-Advanced Dashboard: More detailed analytics and management tools for employers.
-
-📄 License
-This project is open source and available under the MIT License.
-
-📧 Contact
-For any questions or feedback, feel free to reach out:
-
-Pranay Reddy - Your GitHub Profile
-
-[Your Email Address (Optional)]
