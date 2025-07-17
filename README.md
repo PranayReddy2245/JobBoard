@@ -90,7 +90,7 @@ Fill in all the required fields (Title, Company, Location, Salary, Type, Remote,
 Click "Post Job" to add the new job to the list.
 
 Navigate: Use the "Jobs" and "Post Job" buttons in the navbar to quickly jump to respective sections.
-
+```bash
 📂 Project Structure
 JobBoard/
 ├── node_modules/
@@ -106,7 +106,7 @@ JobBoard/
 ├── package-lock.json
 ├── postcss.config.js   # PostCSS configuration for Tailwind CSS
 └── tailwind.config.js  # Tailwind CSS configuration
-
+```
 💡 Future Enhancements
 Full Search Functionality: Implement filtering and searching based on keywords, location, job type, and remote status.
 
